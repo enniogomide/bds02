@@ -23,9 +23,7 @@ public class CityController {
 	
 	@Autowired
 	private CityService service;
-	/*
-	 * List all categories
-	 */
+
 	@GetMapping
 	public ResponseEntity<List<CityDTO>> findAll() {
 
